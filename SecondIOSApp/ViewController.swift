@@ -26,10 +26,25 @@ class ViewController: UIViewController
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
+   
     {
     @IBAction func UITextBox1CLick(sender: UIButton)
         Void
     {
     UITestBox.text = "you hit a button, nice!"
 
-
+}
+    private func makeRandomCOlor() -> UIcolor
+{
+    let randomColor : UIcolor
+    
+    //Color in Swifis a percentage - from 1-0 inclusive.
+    //of type CGFloat for all components: RGBG
+    
+    let redColor :CGFloat = CGFloat(drad48())
+    let greenColor :CGFoat = CGflat(doubld(arc4random_uniform(256))/255.00)
+    let blueColor :CGfloat = CGFloar(durand48)
+    let alphaChannel :CGfloat = 1.0
+    return randomColor = UIColor(red: redColor, green: greenColor,blue: blueColor,alpha: alphaChannel
+}
+}
