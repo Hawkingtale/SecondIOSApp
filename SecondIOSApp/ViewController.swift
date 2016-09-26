@@ -8,9 +8,15 @@
 
 import UIKit
 
-class ViewController: UIViewController {
-
-    override func viewDidLoad() {
+class ViewController: UIViewController
+{
+    @IBOutlet weak var UILabel: UISwitch!
+    @IBOutlet weak var UITextBox: UITextField!
+    @IBOutlet weak var UISlider: UISlider!
+    @IBOutlet weak var UITextBox1: UIButton!
+    
+    override func viewDidLoad()
+    {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
     }
@@ -20,6 +26,7 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
+    @IBOutlet var UIButton: [UIButton]!
 
 }
 
