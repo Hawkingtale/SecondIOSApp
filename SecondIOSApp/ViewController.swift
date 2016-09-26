@@ -10,10 +10,10 @@ import UIKit
 
 class ViewController: UIViewController
 {
-    @IBOutlet weak var UILabel: UISwitch!
-    @IBOutlet weak var UITextBox: UITextField!
-    @IBOutlet weak var UISlider: UISlider!
-    @IBOutlet weak var UITextBox1: UIButton!
+    @IBOutlet private weak var UILabel: UISwitch!
+    @IBOutlet pivate weak var UITextBox: UITextField!
+    @IBOutlet private weak var UISlider: UISlider!
+    @IBOutlet private weak var UITextBox1: UIButton!
     
     override func viewDidLoad()
     {
@@ -21,12 +21,15 @@ class ViewController: UIViewController
         // Do any additional setup after loading the view, typically from a nib.
     }
 
-    override func didReceiveMemoryWarning() {
+    override func didReceiveMemoryWarning()
+    {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
+    {
+    @IBAction func UITextBox1CLick(sender: UIButton)
+        Void
+    {
+    UITestBox.text = "you hit a button, nice!"
 
-    @IBOutlet var UIButton: [UIButton]!
-
-}
 

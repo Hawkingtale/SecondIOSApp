@@ -42,7 +42,7 @@
                                 <color key="thumbTintColor" red="0.0" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                             </switch>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VVO-hj-NOj">
-                                <rect key="frame" x="199" y="128" width="273" height="141"/>
+                                <rect key="frame" x="189" y="128" width="273" height="141"/>
                                 <size key="titleShadowOffset" width="2.2250738585072014e-308" height="1"/>
                                 <state key="normal" title="BIG BUTTON">
                                     <color key="titleColor" red="0.98474886250000004" green="1" blue="0.98066117990000001" alpha="0.0" colorSpace="calibratedRGB"/>
